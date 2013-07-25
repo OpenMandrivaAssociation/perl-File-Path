@@ -1,15 +1,15 @@
 %define upstream_name    File-Path
-%define upstream_version 2.08
+%define upstream_version 2.09
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 2.09
+Release:	1
 
 Summary:	File path and name utilities
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/File/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/File-Path-2.09.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -60,3 +60,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Jul 12 2009 cpan2dist 2.07-1mdv
 - initial mdv release, generated with cpan2dist
+
