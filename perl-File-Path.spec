@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 2.09
-Release:	1
+Release:	2
 
 Summary:	File path and name utilities
 License:	GPL+ or Artistic
