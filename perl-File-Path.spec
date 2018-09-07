@@ -33,9 +33,6 @@ The following functions are provided:
 perl Makefile.PL INSTALLDIRS=vendor
 %make
 
-%check
-%make test
-
 %install
 %makeinstall_std
 
@@ -43,21 +40,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 2.80.0-2mdv2011.0
-+ Revision: 654962
-- rebuild for updated spec-helper
-
-* Sat Nov 07 2009 Jérôme Quelin <jquelin@mandriva.org> 2.80.0-1mdv2011.0
-+ Revision: 462466
-- update to 2.08
-
-* Sun Jul 12 2009 Jérôme Quelin <jquelin@mandriva.org> 2.70.0-1mdv2010.0
-+ Revision: 395223
-- import perl-File-Path
-
-
-* Sun Jul 12 2009 cpan2dist 2.07-1mdv
-- initial mdv release, generated with cpan2dist
-
